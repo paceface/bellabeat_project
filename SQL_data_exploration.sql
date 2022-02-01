@@ -1,8 +1,8 @@
 /*
 -- The following SQL queries are written for Google's BigQuery
--- All tables included in the dataset reference an ID number unique to each user. Since this is a 10 digit number I have create a table called userNames that maps each ID number to an easier to read user name. User names are in the format User01. Most queries will include a join to the userNames table.
+-- All tables included in the dataset reference an ID number unique to each user. Since this is a 10 digit number I have created a table called userNames that maps each ID number to an easier to read user name. User names are in the format User01. Most queries will include a join to the userNames table.
 
---SQL skills used: join, aggregate functions, subquery, analytic functions (OVER), navigation functions (FIRST_VALUE, LAST_VALUE), statistical aggregate functions (CORR)
+-- SQL skills used: join, aggregate functions, subquery, analytic functions (OVER), navigation functions (FIRST_VALUE, LAST_VALUE), statistical aggregate functions (CORR)
 */
 
 --Activity level seems to be quantified using two measures: intensity and METs
